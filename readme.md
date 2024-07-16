@@ -98,11 +98,10 @@ The Application Principal Reporting - Provision SharePoint List Schema flow shou
 <table>
     <tr>
         <td>
-            This section of the flow is variable declaration. The following variable values are populated directly from their respective environment variables:
+            <img align="left" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow1.png">
         </td>
-    </tr>
-    <tr>
         <td>
+            This section of the flow is variable declaration. The following variable values are populated directly from their respective environment variables:
             <ul>
                 <li>vClientId</li>
                 <li>vTenantId</li>
@@ -110,7 +109,7 @@ The Application Principal Reporting - Provision SharePoint List Schema flow shou
                 <li>vListName</li>
             </ul>
         </td>
-        <tr>
+    </tr>
 </table>
 
 <br clear="left"/>
