@@ -93,12 +93,10 @@ Configure the following environment variables:
 ### Application Principal Reporting - Provision SharePoint List Schema
 The Application Principal Reporting - Provision SharePoint List Schema flow should only need to be executed one time.  Its purpose is to provision the necessary SharePoint custom list and associated list fields in the target SharePoint site.  The custom list is where all the application registration data is written to by the other flows.
 
-<img align="left" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow1.png">
-
 <table>
     <tr>
         <td>
-            <img align="left" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow1.png">
+            <img align="left" width="400" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow1.png">
         </td>
         <td>
             This section of the flow is variable declaration. The following variable values are populated directly from their respective environment variables:
