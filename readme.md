@@ -9,6 +9,8 @@ Each Power Automate Flow is documented here:
 - [Provision SharePoint List Schema Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
 - [Import Site Collection Associations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
 - [Import Application Registrations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsFlowDetails.md)
+- [Import Application Registrations Last Sign-in Activity Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsSignInFlowDetails.md)
+
 
 #### App Registration Details
 <p align="center" width="100%">
