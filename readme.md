@@ -95,7 +95,6 @@ The Application Principal Reporting - Provision SharePoint List Schema flow shou
 
 <img align="left" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow1.png">
 
-<br/><br/><br/>
 <table>
     <tr>
         <td>
