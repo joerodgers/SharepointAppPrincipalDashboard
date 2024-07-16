@@ -3,11 +3,12 @@
 ### Entra Id Application Registration
 This solution package relies entirely on a single Entra ID application registration for authentication to the Microsoft Graph.  All authentication is performed using an app-only context with a Client Id and Secret. To operate in a least privileged configuration, create a new app registration with the following permissions:
 
-| API | Permission | Justification |
-|-----|------------------------|---------------|
-| Microsoft&nbsp;Graph | Application.Read.All | Required to read all applications from Entra ID using Microsoft Graph’s applications endpoint. |
-| Microsoft&nbsp;Graph | Sites.Read.All       | Required to read all site collections from Microsoft Graph's GetAllSites endpoint. |
-| Microsoft&nbsp;Graph | Sites.Selected       | "Manage" permissions to the “host” site collection to allow list provisioning, list item operations. |
+|API|Permission|Scope|Justification|
+|:-:|:-:|:-:|:-|
+| Microsoft&nbsp;Graph | Application.Read.All | Application | Required to read all applications from Entra ID using Microsoft Graph’s applications endpoint. |
+| Microsoft&nbsp;Graph | Sites.Read.All       | Application | Required to read all site collections from Microsoft Graph's GetAllSites endpoint. |
+| Microsoft&nbsp;Graph | Sites.Selected       | Application | "Manage" permissions to the “host” site collection to allow list provisioning, list item operations. |
+| Microsoft&nbsp;Graph | AuditLog.Read.All    | Application | Required to read the sign-in activity information for service principals in a Entra tenant |
 
 Example reference configuration:
 <p align="center" width="100%">
