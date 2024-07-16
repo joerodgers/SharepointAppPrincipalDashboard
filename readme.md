@@ -115,7 +115,7 @@ The Application Principal Reporting - Provision SharePoint List Schema flow shou
 <table>
     <tr>
         <td>
-            <img align="left" width="500" height="500" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow2.png">
+            <img align="left" width="450" height="480" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow2.png">
         </td>
         <td> This section attempts to read the client secret value from the AKV environment variable.  If the Secret (Azure Key Vault) environment variable is not configured or fails to load, the flow will attempt to read the Secret (Plaintext) environment variable.
         </td>
