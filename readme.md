@@ -1,16 +1,10 @@
 ## Overview
 
-This solution provides SharePoint Online Administrators with insights into all Entra ID App Registrations in a tenant configured with one or more SharePoint Online or Microsoft Graph related site permissions.  The solution is packaged as a Power Platform Solution package.  It contains several Power Automate Workflows use to inventory Entra ID App Registrations, associate SharePoint Online sites (sites.selected) and import sign-in activity. 
+This solution provides SharePoint Online Administrators with an evergreen SharePoint list detailing all Entra ID App Registrations in a tenant which have with one or more SharePoint Online related site consented permissions.  The solution is packaged as an unmanaged Power Platform Solution package.  It contains four Power Automate Workflows use to inventory Entra ID App Registrations, import SharePoint Online sites (sites.selected) associations and import app registration sign-in activity.
 
 These workflows are highly optimized and have been tested on multiple tenants (inculding multi-geo) with 100k+ site collections and 15k+ (total) App Registrations. 
 
-### Power Automate Flow Details
-Each Power Automate Flow is documented here:
-- [Provision SharePoint List Schema Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
-- [Import Site Collection Associations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
-- [Import Application Registrations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsFlowDetails.md)
-- [Import Application Registrations Last Sign-in Activity Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsSignInFlowDetails.md)
-
+### Dashboard Details
 
 #### App Registration Details
 Once the flows are running and data is being imported, users with access to the target SharePoint list will be able to view the important details of all app registrations in the tenant with at least one SharePoint Online related permission.  The list contains basic details about the app registration; title, object id, client id, name, created date.  For app registrations that have been associated with a SharePoint Online site using the Sites.Selected permission, the *SharePoint Site* column will contain all sites assocated with the app registration.   
@@ -24,7 +18,18 @@ The list will all consented SharePoint Online related permissions for both the D
     <kbd><img src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/list-2.png" width="800"></kbd>
 </p>
 
+### Power Automate Flow Details
+
+Each Power Automate Flow is documented here:
+- [Provision SharePoint List Schema Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
+- [Import Site Collection Associations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
+- [Import Application Registrations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsFlowDetails.md)
+- [Import Application Registrations Last Sign-in Activity Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsSignInFlowDetails.md)
+
 ## Setup
+
+#### Licening
+All of the Power Automate Flows in this package leverage one or more premium connectors, therefore the owner of the solution package must have a Power Automate Premium license assigned to their user account. 
 
 ### Entra Id Application Registration
 This solution package relies entirely on a single Entra ID application registration for authentication to the Microsoft Graph.  All authentication is performed using an app-only context with a Client Id and Secret. To operate in a least privileged configuration, the associated app registration requires the following permissions:
