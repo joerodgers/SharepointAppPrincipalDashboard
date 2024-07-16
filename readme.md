@@ -13,11 +13,13 @@ Each Power Automate Flow is documented here:
 
 
 #### App Registration Details
+Once the flows are running and data is being imported, users with access to the target SharePoint list will be able to view the important details of all app registrations in the tenant with at least one SharePoint Online related permission.  The list contains basic details about the app registration; title, object id, client id, name, created date.  For app registrations that have been associated with a SharePoint Online site using the Sites.Selected permission, the *SharePoint Site* column will contain all sites assocated with the app registration.   
 <p align="center" width="100%">
     <kbd><img src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/list-1.png" width="800"></kbd>
 </p>
 
 #### Permission Details
+The list will all consented SharePoint Online related permissions for both the Delegated and Application scope types for the Microsoft Graph Delegated and SharePoint Online APIs. Additionally, the *Last Sign-In Activity Date*, *Secret Expiration Date*, *Certificate Expiration Date* and the *Internal Notes* fields are also provided. 
 <p align="center" width="100%">
     <kbd><img src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/list-2.png" width="800"></kbd>
 </p>
