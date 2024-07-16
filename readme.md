@@ -99,11 +99,13 @@ The Application Principal Reporting - Provision SharePoint List Schema flow shou
 This section of the flow is variable declaration. 
 
 The following variable values are populated directly from their respective environment variables:
- - vClientId
- - vClientSecret
- - vTenantId
- - vSiteUrl
- - vListName
+|||
+|-|-|
+||<ul><li>vClientId</li></ul>|
+||<ul><li>vTenantId</li></ul>|
+||<ul><li>vSiteUrl</li></ul>|
+||<ul><li>vListName</li></ul>|
+
 <br clear="left"/>
 
 
