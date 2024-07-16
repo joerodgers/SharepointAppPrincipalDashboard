@@ -1,8 +1,11 @@
 ## Overview
 ### Solution Package Overview
 The solution package is comprised of three Power Automate Flows, six Solution Environment Variables and one Connection Reference.  The Connection Reference is only used if you chose to the Azure Key Vault secret storage option.
-![Entra Permssions](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/list.png)
 
+
+![App Registation](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/list-1.png)
+
+![App Registation](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/list-2.png)
 ## Setup
 
 ### Entra Id Application Registration
