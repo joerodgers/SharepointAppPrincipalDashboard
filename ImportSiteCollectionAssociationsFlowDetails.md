@@ -9,7 +9,11 @@ Note: this flow is currently to large to be displayed in the new flow GUI.
 <table border=0>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow6.png">
+            <p align="center" width="100%">
+                <kbd>
+                <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow6.png">
+                </kbd>
+            </p>
         </td>
         <td>
             This section of the flow is variable declaration. 
@@ -31,7 +35,11 @@ Note: this flow is currently to large to be displayed in the new flow GUI.
 <table>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow7.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow7.png">
+                </kbd>
+            </p>
         </td>
         <td>This section attempts to read the client secret value from the AKV environment variable.
             <br/><br/>
@@ -44,7 +52,11 @@ Note: this flow is currently to large to be displayed in the new flow GUI.
 <table>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow8.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow8.png">
+                </kbd>
+            </p>
         </td>
         <td>This section paged HTTP calls to the Microsoft Graph GetAllSites endpoint to retrieve a list of all OD/SP sites.
             <br/><br/>

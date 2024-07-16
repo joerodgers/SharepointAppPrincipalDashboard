@@ -4,7 +4,11 @@
 <table border=0>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow15.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow15.png">
+                </kbd>
+            </p>
         </td>
         <td>
             This section of the flow is variable declaration. 
@@ -29,7 +33,11 @@
 <table>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow16.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow16.png">
+                </kbd>
+            </p>
         </td>
         <td>This section attempts to read the client secret value from the AKV environment variable.
             <br/><br/>
@@ -42,7 +50,11 @@
 <table>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow17.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow17.png">
+                </kbd>
+            </p>
         </td>
         <td>This section queries for all existing SharePoint list items and builds an array of objects consisting of the (List) ItemId and ApplicationId.  This mapping is used later to determine if the flow needs to update an existing entry or add a new entry.
         </td>
@@ -53,19 +65,31 @@
 <table>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow18.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow18.png">
+                </kbd>
+            </p>
         </td>
         <td>
             This section is a “do until” loop that keeps fetching pages of applications from Graph API, until there are no more results. The format of the JSON response is as follows:
             <br/>
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow19.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow19.png">
+                </kbd>
+            </p>
             <br/>
             The flow then iterates through each application result on the current page.
         </td>
     </tr>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow20.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow20.png">
+                </kbd>
+            </p>
         </td>
         <td>
             For each application found, the flow will iterate all objects in the requiredResourceAccess (consented services) array.
@@ -75,7 +99,11 @@
     </tr>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow21.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow21.png">
+                </kbd>
+            </p>
         </td>
         <td>
             The flow will branch according to the GUID value for resourceAppId.
@@ -83,7 +111,11 @@
     </tr>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow22.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow22.png">
+                </kbd>
+            </p>
         </td>
         <td>
             If the GUID value for resourceAppId maps to Microsoft Graph, the flow enumerates each object in the resourceAccesss (consented role) array.
@@ -97,7 +129,11 @@
     </tr>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow23.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow23.png">
+                </kbd>
+            </p>
         </td>
         <td>
             If the GUID value for resourceAppId maps to SharePoint Online, the flow enumerates each object in the resourceAccesss (consented role) array.
@@ -109,7 +145,11 @@
     </tr>
     <tr>
         <td width="500" height="500">
-            <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow24.png">
+            <p align="center" width="100%">
+                <kbd>
+                    <img align="center" src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/flow24.png">
+                </kbd>
+            </p>
         </td>
         <td>
             The Condition action checks if any permissions have been added to any of the four permissions arrays.
