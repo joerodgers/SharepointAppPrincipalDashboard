@@ -78,6 +78,13 @@ After the solution has been successfully imported, select the Application Princi
 #### Provision SharePoint List
 Manually run the *Application Principal Reporting - Provision SharePoint List Schema* Flow one time to automatically provision the SharePoint list and list schema used for data storage.  This flow will only take a few seconds to run.  It may be necessary to run the flow each time an solution update is released in the event there is a change to the SharePoint list schema.
 
+#### Configure Column Formatter
+(Optional) If you would like all highly privilaged application scoped permssions to be highlighted in red, copy and pasted the JSON sample [column-formatter.json](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/column-formatter.json) into the *Format this Column* section on both the *Graph Application Permissions* and *SharePoint Application Permissions* columns.
+
+<p align="center" width="100%">
+    <kbd><img src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/column-format-result.png" width="800"></kbd>
+</p>
+
 #### Schedule Configuration
 (Optional) Open and edit each of the three scheduled Power Automate Flows and adjust the recurrance schedule to your desired frequency and start time.
 

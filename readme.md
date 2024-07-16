@@ -30,5 +30,5 @@ Individual Flow Details:
 - [Import Application Registrations Last Sign-in Activity Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsSignInFlowDetails.md)
 
 
-
-
+## Setup
+Follow the [setup instructions](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/setup.md) for steps to install and configure the solution package.
