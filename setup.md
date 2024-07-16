@@ -82,7 +82,7 @@ Manually run the *Application Principal Reporting - Provision SharePoint List Sc
 (Optional) If you would like all highly privilaged application scoped permssions to be highlighted in red, copy and pasted the JSON sample [column-formatter.json](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/column-formatter.json) into the *Format this Column* section on both the *Graph Application Permissions* and *SharePoint Application Permissions* columns.
 
 <p align="center" width="100%">
-    <kbd><img src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/column-format-result.png" width="800"></kbd>
+    <kbd><img src="https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/column-format-result.png"></kbd>
 </p>
 
 #### Schedule Configuration
