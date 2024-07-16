@@ -1,6 +1,6 @@
 
 ### Application Principal Reporting - Import Site Collection Associations
-The Application Principal Reporting - Import Site Collection Associations flow should be scheduled to run on a periodic basis.  This flow is responsible for importing the site collection URL associations to each application principal in the list.  If not matching application principal is found in the list, a new entry is added with a “NOT FOUND” title.  App Principals deleted from Entra ID are not automatically deleted from the SharePoint Site, which is likely the primary reason an existing application registration entry is missing.
+The *Application Principal Reporting - Import Site Collection Associations* flow should be scheduled to run on a periodic basis.  This flow is responsible for importing the site collection URL associations to each application principal in the list.  If not matching application principal is found in the list, a new entry is added with a "NOT FOUND" title.  App Principals deleted from Entra ID are not automatically deleted from the SharePoint Site, which is likely the primary reason an existing application registration entry is missing.
 ```
 Note: this flow is currently to large to be displayed in the new flow GUI.
 ```

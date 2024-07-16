@@ -5,9 +5,10 @@ This solution provides SharePoint Online Administrators with insights into all E
 These workflows are highly optimized and have been tested on multiple tenants (inculding multi-geo) with 100k+ site collections and 15k+ (total) App Registrations. 
 
 ### Power Automate Flow Details
+Each Power Automate Flow is documented here:
 - [Provision SharePoint List Schema Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
 - [Import Site Collection Associations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
-- [Import Site Collection Associations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ProvisionSharePointListSchemaFlowDetails.md)
+- [Import Application Registrations Flow Detail](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/ImportApplicationRegistrationsFlowDetails.md)
 
 #### App Registration Details
 <p align="center" width="100%">

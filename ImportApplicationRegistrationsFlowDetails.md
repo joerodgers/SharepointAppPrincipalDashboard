@@ -1,4 +1,5 @@
 ### Application Principal Reporting - Import Application Principals
+The *Application Principal Reporting - Import Application Principals* flow should be scheduled to run on a periodic basis.  This flow is responsible for importing all Entra ID app registrations which have one or more SharePoint Online or Microsoft Graph sites/files related permission consented.
 
 #### Variable Declaration
 <table border=0>
