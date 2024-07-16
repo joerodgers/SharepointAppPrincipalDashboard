@@ -14,7 +14,7 @@ This solution package relies entirely on a single Entra ID application registrat
 |Sites.Selected          | “Manage” permissions to the “host” site collection to allow list provisioning, list item operations. |
 
 Example reference configuration:
-![Entra Permssions](https://raw.github.com/joerodgers/sharepoint-app-registrations/assets/entra-perms.png)
+![Entra Permssions](https://github.com/joerodgers/sharepoint-app-registrations/blob/main/assets/entra-perms.png)
 
 ### Site Collection Permissions
 
