@@ -20,7 +20,7 @@ The list will all consented SharePoint Online related permissions for both the D
 
 ### Power Automate Flow Overview
 
-#### Licening
+#### Licensing
 All of the Power Automate Flows in this package leverage one or more premium connectors, therefore the owner of the solution package must have a Power Automate Premium license assigned to their user account. 
 
 Individual Flow Details:
