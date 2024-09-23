@@ -5,10 +5,10 @@ This solution package relies entirely on a single Entra ID application registrat
 
 |API|Permission|Scope|Justification|
 |:-:|:-:|:-:|:-|
-| Microsoft&nbsp;Graph | Application.Read.All | Application | Required to read all applications from Entra ID using Microsoft Graph’s applications endpoint. |
-| Microsoft&nbsp;Graph | Sites.Read.All       | Application | Required to read all site collections from Microsoft Graph's GetAllSites endpoint. |
-| Microsoft&nbsp;Graph | Sites.Selected       | Application | "Manage" permissions to the “host” site collection to allow list provisioning, list item operations. |
-| Microsoft&nbsp;Graph | AuditLog.Read.All    | Application | Required to read the sign-in activity information for service principals in a Entra tenant |
+| Microsoft&nbsp;Graph | Application.Read.All  | Application | Required to read all applications from Entra ID using Microsoft Graph’s applications endpoint. |
+| Microsoft&nbsp;Graph | Sites.FullControl.All | Application | Required to read all site collections from Microsoft Graph's GetAllSites endpoint and individual site permissions. |
+| Microsoft&nbsp;Graph | Sites.Selected        | Application | "Manage" permissions to the “host” site collection to allow list provisioning, list item operations. |
+| Microsoft&nbsp;Graph | AuditLog.Read.All     | Application | Required to read the sign-in activity information for service principals in a Entra tenant |
 
 Example reference configuration:
 <p align="center" width="100%">
